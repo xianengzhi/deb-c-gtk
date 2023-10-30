@@ -1,0 +1,8 @@
+Package:hello
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: arm64
+Depends: libgtk-3-0
+Maintainer: xnz <xianengzhi@yixin.im>
+Description: A simple command-line tool
