@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=Hello
-Exec="/opt/hello/myapp"
+Exec="/opt/hello/hello"
 Icon=hello
 

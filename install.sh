@@ -1,1 +1,1 @@
-dpkg-deb -b hello
+dpkg -b app hello_1.0_arm64.deb
