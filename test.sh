@@ -6,7 +6,7 @@
 #     exit 1
 # fi
 # 遍历所有用户的桌面文件夹路径
-for home_dir in /home/*/ /root/; do
+for home_dir in /home/* /root/; do
     desktop_dir="${home_dir}/Desktop"
 
     # 检查 Desktop 文件夹是否存在
@@ -22,6 +22,8 @@ for home_dir in /home/*/ /root/; do
 
     # 复制文件到桌面文件夹
     cp /usr/share/applications/hello.desktop "${desktop_dir}/"
+    chmod +x ${desktop_dir}/${APP_NAME}.desktop
+    echo "chmod +x ${desktop_dir}/${APP_NAME}.desktop"
 
     echo "已将文件复制到用户 ${home_dir} 的桌面文件夹"
 done
