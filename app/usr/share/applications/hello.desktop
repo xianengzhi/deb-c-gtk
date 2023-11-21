@@ -1,6 +1,7 @@
+#! /usr/bin/env xdg-open
 [Desktop Entry]
 Type=Application
 Name=Hello
 Exec="/opt/hello/hello"
 Icon=hello
-
+Categories=System;
